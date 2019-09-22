@@ -48,8 +48,9 @@ int main() {
 ## const char* const a
 这个就简单了，什么都不能变
 
+---
+简单记忆 `const` 靠近哪边,哪边就是不可变的 `const char *`就是`char`不可修改，`char * const a`靠近指针则`a`不可以修改(赋值)
 
-> 简单记忆 `const` 靠近哪边,哪边就是不可变的 `const char *`就是`char`不可修改，`char * const a`靠近指针则`a`不可以修改(赋值)
 ---
 Ref:
 1. [Difference between char* and const char*?](https://stackoverflow.com/questions/9834067/difference-between-char-and-const-char)
